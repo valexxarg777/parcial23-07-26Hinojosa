@@ -1,0 +1,31 @@
+/* Estilos simples, sin librerías externas: alcanza y sobra para el parcial. */
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 40px auto; /* centra el contenido en la página */
+  padding: 0 20px;
+}
+
+h1 { text-align: center; }
+
+form {
+  display: flex;       /* pone los inputs uno al lado del otro */
+  gap: 8px;
+  flex-wrap: wrap;      /* si no entran todos en una fila, bajan a la siguiente */
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 6px;
+  flex: 1;              /* todos los inputs se reparten el espacio disponible */
+  min-width: 100px;
+}
+
+button { padding: 6px 14px; cursor: pointer; }
+
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+
+button.borrar { background: #e74c3c; color: white; border: none; }
+button.editar { background: #3498db; color: white; border: none; }

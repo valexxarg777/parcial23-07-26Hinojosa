@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Catálogo de Productos</h1>
+
+  <!-- Un mismo formulario sirve tanto para CREAR como para EDITAR.
+       El input hidden "producto-id" es la clave: si está vacío,
+       script.js sabe que hay que crear (POST); si tiene un valor,
+       sabe que hay que editar (PUT). -->
+  <form id="form-producto">
+    <input type="hidden" id="producto-id">
+    <input type="text" id="nombre" placeholder="Nombre" required>
+    <input type="text" id="descripcion" placeholder="Descripción" required>
+    <input type="number" id="precio" placeholder="Precio" step="0.01" required>
+    <input type="number" id="stock" placeholder="Stock" required>
+    <button type="submit" id="btn-guardar">Agregar</button>
+  </form>
+
+  <!-- El <tbody> arranca vacío a propósito: script.js lo llena
+       dinámicamente con los datos que trae de la API. Nunca
+       escribimos productos "a mano" acá, siempre vienen de fetch(). -->
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th><th>Descripción</th><th>Precio</th><th>Stock</th><th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-productos"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

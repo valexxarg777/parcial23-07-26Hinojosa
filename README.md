@@ -3,7 +3,7 @@ INSTITUTO SUPERIOR VILLA DEL ROSARIO
 CÁTEDRA DE PROGRAMACIÓN INFORME DE EVALUACIÓN Y NOTIFICACIÓN - PARCIAL N°4 
 Materia: Programación I  
 Instancia: Presentación y Defensa Oral de Proyecto Integrador (API + Web + BD)  
-Fecha de Evaluación: [Fecha]
+Fecha de Evaluación: 23-07-26
 Estado Final: DESAPROBADO
 Nota Definitiva: 3 (TRES)
 CRITERIOS DE EVALUACIÓN Y CONSIDERACIONES DE LA CÁTEDRA :Se le recuerda al alumnO que, según lo establecido en la consigna del Parcial N°4, la entrega del proyecto (API en ASP.NET Core, Entity Framework y la web en HTML/CSS) funcionaba únicamente como un requisito previo para tener derecho a rendir. El pilar fundamental de la nota radicaba de manera excluyente en la defensa oral presencial, donde el alumno debía demostrar solidez y fluidez sin leer.  

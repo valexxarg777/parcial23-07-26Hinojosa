@@ -1,6 +1,6 @@
 # parcial23-07-26Hinojosa
 INSTITUTO SUPERIOR VILLA DEL ROSARIO
-CÁTEDRA DE PROGRAMACIÓN INFORME DE EVALUACIÓN Y NOTIFICACIÓN - PARCIAL N°4 
+CÁTEDRA DE PROGRAMACIÓN INFORME DE EVALUACIÓN Y NOTIFICACIÓN -
 Materia: Programación I  
 Instancia: Presentación y Defensa Oral de Proyecto Integrador (API + Web + BD)  
 Fecha de Evaluación: 23-07-26
